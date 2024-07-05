@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <!-- Agrega el enlace a Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-md mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">Lista de Tareas</h1>
+        <ul id="lista" class="space-y-2">
+            <li class="pendientes bg-white rounded-lg shadow-md p-3 flex items-center justify-between">
+                <span class="text-gray-700">Comprar víveres</span>
+                <button class="text-red-500 hover:text-red-700">Eliminar</button>
+            </li>
+            <li class="pendientes bg-white rounded-lg shadow-md p-3 flex items-center justify-between">
+                <span class="text-gray-700">Llamar a Juan</span>
+                <button class="text-red-500 hover:text-red-700">Eliminar</button>
+            </li>
+        </ul>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
+
